@@ -13,6 +13,10 @@ public class PaymentResponse {
 		public PaymentResponse(String error) {
 			this.error = error;
 		}
+		
+		public PaymentStatus getStatus() {
+			return status;
+		}
 
 		public String getError() {
 		return error;
